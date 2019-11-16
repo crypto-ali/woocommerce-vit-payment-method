@@ -1,6 +1,6 @@
 ![wc-plus-vit.png](https://cdn.steemitimages.com/DQmb3YZp3uNzrVG4rrHbq6SAkMpMod9PHf8gbL643bhQFQa/wc-plus-vit.png)
 
-# WooCommerce VIT Payment Method
+# VIT Payment Method for WooCommerce
 Accept VIT payments in your WooCommerce store via a VIT wallet or [WhaleVault](https://github.com/alexpmorris/WhaleVault). Automatically converts from fiat (USD, EUR, etc) to VIT. No transaction fees.
 
 ## Supported VIT Currencies
@@ -59,7 +59,7 @@ You will <strong>NOT</strong> be required to enter any VIT private keys into thi
 ## Disclaimers
 Authors claim no responsibility for missed transactions, loss of your funds, loss of customer funds, incorrect or delayed exchange rates or any other issue you may encounter as a result of using this plugin. Use this plugin at your own risk.
 
-The WooCommerce VIT Payment Method is a free, open-source extension for WooCommerce software. WooCommerce name and trademark are used to indentify purpose of this plugin software. There is no official partnership or endorsement between WooCommerce and WooCommerce VIT Payment Method.
+The VIT Payment Method for WooCommerce is a free, open-source extension for WooCommerce software. WooCommerce name and trademark are used to indentify purpose of this plugin software. There is no official partnership or endorsement between WooCommerce and VIT Payment Method for WooCommerce.
 
 ## Installation
 

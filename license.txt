@@ -20,8 +20,8 @@ This program incorporates work covered by the following copyright and
 permission notices:
 
   WooCommerce VIT Payment Method
-  Copyright (c) 2019 - Crypto Ali
-  https://github.com/crypto-ali
+  Copyright (c) 2019 - Vision Industry Token
+  https://visionindustry.com/
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
