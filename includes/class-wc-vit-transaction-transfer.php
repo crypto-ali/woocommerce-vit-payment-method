@@ -46,20 +46,9 @@ class WC_VIT_Transaction_Transfer {
 			
 			return $transfer;
 		}
-		
-		//step1
-		$ch = curl_init(); 
-		//step2
-		curl_setopt($ch,CURLOPT_URL,"https://vitapi.isfor.me/account-history/transfers?account=".$data['to']);
-		curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-		curl_setopt($ch,CURLOPT_HEADER, false); 
-		//step3
-		$file_contents = curl_exec($ch);
-		//step4
-		curl_close($ch);
-		
-		//$file_contents = file_get_contents("https://vitapi.isfor.me/account-history/transfers?account=".$data['to']);
-		//$file_contents = wp_remote_get("https://vitapi.isfor.me/account-history/transfers?account=".$data['to']);
+				
+		$response = wp_remote_get("https://vitapi.isfor.me/account-history/transfers?account=".$data['to']);
+		$file_contents = wp_remote_retrieve_body($response);
 		
 		// If failure in retrieving url
 		if ($file_contents === false)

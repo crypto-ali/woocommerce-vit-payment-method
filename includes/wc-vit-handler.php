@@ -45,22 +45,12 @@ class WC_VIT_Handler {
 
 	public static function update_rates() {
 		$rates = get_option('wc_vit_rates', array());
+				
+		$response = wp_remote_get('https://isfor.me/rates/vit-usd-rate.json');
+		$body = wp_remote_retrieve_body($response);
 
-		//step1
-		$ch = curl_init(); 
-		//step2
-		curl_setopt($ch,CURLOPT_URL,"https://isfor.me/rates/vit-usd-rate.json");
-		curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-		curl_setopt($ch,CURLOPT_HEADER, false); 
-		//step3
-		$response = curl_exec($ch);
-		//step4
-		curl_close($ch);
-		
-		//$response = wp_remote_get('https://isfor.me/rates/vit-usd-rate.json');
-
-		if (is_string($response)) {
-			$tickers = json_decode($response, true);
+		if (is_string($body)) {
+			$tickers = json_decode($body, true);
 
 				if (isset($tickers['Rates']['VIT_USD'])) {
 					$rates['VIT_USD'] = $tickers['Rates']['VIT_USD'];

@@ -34,8 +34,13 @@ WooCommerce VIT Payment Method lets you accept VIT payments directly to your Woo
 * Exchange rates are updated once an hour
 * FIAT foreign exchange rates are gathered from the European Central Bank's free API
 * VIT exchange rates are determined by querying a VIT exchange rate data feed at isfor.me/rates. The rate is derived from taking the average of three exchange markets: IDAX VIT_BTC, IDAX VIT_ETH, and Steem Engine Dex VITP_STEEMP.
-* Your store's VIT wallet is scanned every 5 minutes for pending transactions (if there are any orders with pending payment)
+* Your store's VIT wallet is scanned every 5 minutes for pending transactions (if there are any orders with pending payment) via the VIT Web API. See below for more info.
 * If an order is Pending Payment for too long it will be automatically canceled by WooCommerce default settings. You can change the timing or disable this feature in WooCommerce -> Settings -> Products -> Inventory -> Hold Stock (Minutes)
+
+= VIT Web API =
+To scan your VIT wallet, the plugin sends a GET request to the [VIT API](https://vitapi.isfor.me/) with your VIT username as the account parameter. The API responds with a list of recent transfer operations involving that account that it finds on the VIT blockchain. The plugin then searches that transfer data for the matching transfer data (amount, memo, etc).
+
+Additional information about the VIT API: [Documentation](https://isfor.me/vit-api-info.php) | [API Terms of Service](https://isfor.me/vit-api-tos.php) | [API Privacy Policy](https://isfor.me/vit-api-privacy-policy.php)
 
 = Technical Requirements =
 WooCommerce plugin must be installed before you install this plugin.
