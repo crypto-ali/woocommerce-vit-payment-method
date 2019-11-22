@@ -1,7 +1,7 @@
 === VIT Payment Method for WooCommerce ===
 Contributors: visionindustrytoken, alicryptomonhi, sagescrub, recrypto
 Donate link:
-Tags: woocommerce, woo commerce, payment method, vit, sbd, crypto
+Tags: woocommerce, woo commerce, payment method, vit, crypto
 Requires at least: 4.1
 Tested up to: 5.3
 Stable tag: 1.0
