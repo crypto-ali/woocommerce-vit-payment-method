@@ -4,7 +4,7 @@ Donate link:
 Tags: woocommerce, woo commerce, payment method, vit, crypto
 Requires at least: 4.1
 Tested up to: 5.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 Requires PHP: 5.2.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -89,9 +89,7 @@ If the customer does not complete the payment within several minutes of initiati
 You can support this plugin by [creating a VIT account](https://join.vit.tube/) and using the network and plugin.
 
 If you are a developer and would like to contribute, please let me know!
-
-VIT: @mbs305
-Discord: @Crypto Ali#2842 
+To contact me, fill out the contact form on [IsFor.me](https://isfor.me/).
 
 == Screenshots ==
 
@@ -103,6 +101,9 @@ Discord: @Crypto Ali#2842
 6. Settings for this plugin within WooCommerce Payments Settings
 
 == Changelog ==
+
+= 1.0.1 - 2020-1-24 =
+* Maintenance release. Tested with WooCommerce v3.9.
 
 = 1.0 - 2019-11-7 =
 * Initial release.

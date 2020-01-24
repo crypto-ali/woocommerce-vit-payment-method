@@ -3,13 +3,13 @@
  * Plugin Name: VIT Payment Method for WooCommerce
  * Plugin URI: https://github.com/crypto-ali/woocommerce-vit-payment-method
  * Description: Accept VIT payments directly to your shop (Currencies: VIT).
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: <a href="https://github.com/crypto-ali/woocommerce-vit-payment-method">crypto-ali</a>, <a href="https://github.com/AnatoliyStrizhak/whaleshares">AnatoliyStrizhak</a>, <a href="https://github.com/sagescrub/woocommerce-steem-payment-method">sagescrub</a>, ReCrypto
  * Requires at least: 4.1
  * Tested up to: 5.3
  *
  * WC requires at least: 3.1
- * WC tested up to: 3.8
+ * WC tested up to: 3.9
  *
  * Text Domain: wc-vit-payment-method
  */
